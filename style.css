@@ -11,9 +11,9 @@ a{
     text-decoration-line: none;
     color: #fff;
 }
-a:hover{
+p a:hover{
     text-decoration-line: none;
-    color: #666;
+    color: #aaa;
 }
 
 body{
