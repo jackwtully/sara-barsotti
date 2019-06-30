@@ -7,6 +7,15 @@ html, body {
   scroll-behavior: smooth;
 }
 
+a{
+    text-decoration-line: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration-line: none;
+    color: #888;
+}
+
 body{
     margin: 0;
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
@@ -81,7 +90,7 @@ body{
 }
 
 .section{
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .section-b{
@@ -89,14 +98,48 @@ body{
     color: #fff;
 }
 
+.portfolio{
+    background: #fff;
+    color: #111;
+}
+
+.gallery-wrap{
+    width: 90vw;
+    margin: auto; 
+}
+
+.gallery{
+    text-align: center;
+}
+.gallery img{
+    width: 100%;
+    margin-top: 2rem;
+}
+
 #main-footer{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     background: #111;
     color: #fff;
+}
+
+#main-footer p{
+    margin: 0;
+    padding-bottom: 0.5rem;
 }
 
 @media(max-width:960px){
     .container{
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
     }
 }
