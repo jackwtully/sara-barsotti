@@ -89,9 +89,9 @@ body{
     text-decoration: none;
 }
 
-.section{
+/*.section{
     padding: 20px;
-}
+}*/
 
 #about p{
     text-align: justify;
@@ -135,12 +135,16 @@ body{
     margin-top: 0.95rem;
 }
 
-@media(max-width:960px){
+.contact strong{
+    font-size: 1.1rem;
+}
+
+/*@media(max-width:960px){
     .container{
         padding-left: 3rem;
         padding-right: 3rem;
     }
-}
+}*/
 
 /*@media screen and (min-width: 960px){
     .gallery{
